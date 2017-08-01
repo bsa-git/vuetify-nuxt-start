@@ -142,9 +142,6 @@
                 //-----------------
                 this.validateForm().then(result => {
                     if (result) {
-//                        if(self.params())
-//                        self.$emit('onAuthenticated', auth);
-//                        return;
                         if (self.params.ajax) {
                             if (self.params.reqData === 'json') { // 'content-type'='application/json'
                                 formData = {
