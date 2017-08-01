@@ -1,0 +1,17 @@
+@require '~vuetify/src/stylus/settings/_colors.styl'
+
+// Specify overrides (theme and/or base variables etc.)
+// See https://vuetifyjs.com/quick-start
+
+$theme := {
+  primary: $blue.darken-2
+  accent: $blue.accent-2
+  secondary: $grey.darken-3
+  info: $blue.base
+  warning: $amber.base
+  error: $red.accent-2
+  success: $green.base
+}
+
+// Import Vuetify styling
+@require '~vuetify/src/stylus/main.styl'

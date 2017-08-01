@@ -1,0 +1,28 @@
+{
+  "name": "vuetify-nuxt-start",
+  "version": "1.0.0",
+  "description": "Nuxt.js + Vuetify.js project",
+  "author": "Sergei Beskorovainyi <bsa2657@yandex.ru>",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "heroku-postbuild": "npm run build"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-polyfill": "^6.23.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express-useragent": "^1.0.7",
+    "nuxt": "0.10.7",
+    "qs": "^6.5.0",
+    "vee-validate": "^2.0.0-rc.6",
+    "vue-server-renderer": "latest",
+    "vuetify": "latest"
+  },
+  "devDependencies": {
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1"
+  }
+}

@@ -1,0 +1,92 @@
+// --- FONTS ---//
+//@import url(http://fonts.googleapis.com/css?family=Playball);
+@require "./fonts/Playball/style.css"
+
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./material-icons/MaterialIcons-Regular.eot'); /* For IE6-8 */
+  src: local('Material Icons'),
+          local('MaterialIcons-Regular'),
+          url('./material-icons/MaterialIcons-Regular.woff2') format('woff2'),
+          url('./material-icons/MaterialIcons-Regular.woff') format('woff'),
+          url('./material-icons/MaterialIcons-Regular.ttf') format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+
+// ============================================================
+// Vuetify colors
+// ============================================================
+@require "../../node_modules/vuetify/src/stylus/settings/_colors"
+
+// ============================================================
+// Vuetify variables
+// ============================================================
+@require "../../node_modules/vuetify/src/stylus/settings/_variables"
+
+// --- MAIN --- //
+
+main#page-content
+  //min-height: 'calc(100vh - %s - %s)' % ($toolbar-height $footer-height)
+  min-height: 'calc(100vh - %s)' % ($footer-height)
+// --- ERROR --- //
+#img-error
+  height: 20vh
+
+// --- TITLES --- //
+.page-title
+  margin-bottom: 40px
+
+.page-title .subheading
+  color: $grey.darken-1
+
+.card-title .subheading
+  color: $grey.darken-1
+
+// --- EXOTIC --- //
+.exotic--dark
+  color: $grey.lighten-2
+  text-shadow: 0 1px 1px rgba(124, 115, 115, 0.75);
+  font-family: playball, sans-serif;
+
+.exotic--dark .icon
+  color: $grey.lighten-2
+
+.exotic--light
+  color: $grey.darken-4
+  text-shadow: 0 1px 1px rgba(124, 115, 115, 0.75);
+  font-family: playball, sans-serif;
+
+.exotic--light .icon
+  color: $grey.darken-4
+
+
+
+
