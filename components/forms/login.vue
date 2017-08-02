@@ -123,7 +123,7 @@
                     email: 'required|email',
                     password: 'required|min:6'
                 });
-                this.$set(this, 'errors', this.validator.errorBag);
+                this.$set(this, 'errors', this.validator.errors);
             },
             validateForm() {
                 return this.validator.validateAll({
