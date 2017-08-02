@@ -6,6 +6,9 @@ module.exports = {
     router: {
         middleware: 'ini-app' //, 'request-data']
     },
+    generate: {
+        dir: 'docs'
+    },
     /*
      ** Headers of the page
      */
