@@ -31,6 +31,10 @@ const getAuth = function (state) {
     return  state.system.auth
 };
 
+const getStaticPath = function (state) {
+    return  state.system.config.staticPath
+};
+
 // --- Products --- //
 const getProducts = function (state) {
     return state.products.items
@@ -58,6 +62,7 @@ export default {
     isError,
     isAuthenticated,
     getAuth,
+    getStaticPath,
     // --- Products --- //
     getProducts,
     getProductsHeaders,

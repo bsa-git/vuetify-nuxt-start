@@ -3,6 +3,7 @@
 export default {
     app_env: 'testing', // development, production, testing
     global: {
+        staticPath: '',//vuetify-nuxt-start
         debug: false,
         maintenance: false,
         ui: {

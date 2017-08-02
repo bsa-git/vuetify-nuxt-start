@@ -5,7 +5,7 @@
                 <br/>
                 <br/>
                 <!-- Card Media -->
-                <img id="img-error" src="/images/system/error.png" alt="Error">
+                <img id="img-error" :src="`${staticPath}/images/system/error.png`" alt="Error">
                 <!-- Card Content -->
                 <v-card-text>
                     <template v-if="error.name">
@@ -67,7 +67,8 @@
                 return this.error.name ? this.error.message : ''
             },
             ...mapGetters({
-                error: 'getError'
+                error: 'getError',
+                staticPath: 'getStaticPath'
             })
         },
         beforeDestroy: function () {

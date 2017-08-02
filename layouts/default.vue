@@ -4,7 +4,7 @@
         <app-navigation-left
                 :logo_title="config.personal_data.logo_title"
                 :logo_icon="config.personal_data.logo_icon"
-                :logo_img="config.personal_data.logo_img"
+                :logo_img="`${config.staticPath}${config.personal_data.logo_img}`"
                 :mini-variant="navLeftMini"
                 :clipped="navLeftClipped"
                 :drawer="navLeft"
