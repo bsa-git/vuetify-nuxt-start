@@ -4,7 +4,7 @@
             <v-card class="text-xs-center" hover raised>
                 <v-card-text>
                     <div class="display-2 red--text text--accent-4">The site under maintenance</div>
-                    <img id="img-maintenance" src="/images/system/technical_work.jpg" alt="Maintenance">
+                    <img id="img-maintenance" src="/img/system/technical_work.jpg" alt="Maintenance">
                     <div class="headline red--text text--accent-4">We apologize for the temporary inconvenience</div>
                     <div class="headline">Check back later</div>
                     <div class="headline red--text text--accent-4">Administration</div>

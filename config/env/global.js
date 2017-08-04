@@ -14,7 +14,7 @@ export default {
         app_title: 'My Application',
         logo_title: 'My Logo',
         logo_icon: 'new_releases',
-        logo_img: '/images/system/user_female.png',
+        logo_img: '/img/system/user_female.png',
         copyright: '© 2016 Sample - All Rights Reserved',
         designed_with: 'Sample Studio',
         designed_with_url: 'https://www.sample.com/iamgurdeeposahan',

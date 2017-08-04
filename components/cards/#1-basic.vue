@@ -13,7 +13,7 @@
                 <v-layout>
                     <v-flex xs12 sm8 offset-sm2>
                         <v-card>
-                            <v-card-media src="/images/doc/cards/desert.jpg" height="200px">
+                            <v-card-media src="/img/doc/cards/desert.jpg" height="200px">
                             </v-card-media>
                             <v-card-title primary-title>
                                 <div>

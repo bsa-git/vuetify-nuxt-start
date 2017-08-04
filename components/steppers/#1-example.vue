@@ -20,7 +20,7 @@
                             <v-stepper-step step="3">Name of step 3</v-stepper-step>
                         </v-stepper-header>
                         <v-stepper-content step="1">
-                            <v-card img="/images/doc/steppers/first.jpg" height="300px">
+                            <v-card img="/img/doc/steppers/first.jpg" height="300px">
                                 <v-card-text class="white--text pl-3 pt-3 pb-3">First.jpg</v-card-text>
                             </v-card>
                             <v-btn secondary dark @click.native="e1 = 2" light>Continue</v-btn>
@@ -28,14 +28,14 @@
 
                         </v-stepper-content>
                         <v-stepper-content step="2">
-                            <v-card img="/images/doc/steppers/second.jpg" height="300px">
+                            <v-card img="/img/doc/steppers/second.jpg" height="300px">
                                 <v-card-text class="white--text pl-3 pt-3 pb-3">Second.jpg</v-card-text>
                             </v-card>
                             <v-btn secondary dark @click.native="e1 = 3" light>Continue</v-btn>
                             <v-btn flat @click.native="e1 = 1">Cancel</v-btn>
                         </v-stepper-content>
                         <v-stepper-content step="3">
-                            <v-card img="/images/doc/steppers/third.jpg" height="300px">
+                            <v-card img="/img/doc/steppers/third.jpg" height="300px">
                                 <v-card-text class="white--text pl-3 pt-3 pb-3">Third.jpg</v-card-text>
                             </v-card>
                             <v-btn secondary dark @click.native="e1 = 1" light>Continue</v-btn>

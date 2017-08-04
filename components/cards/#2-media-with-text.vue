@@ -16,7 +16,7 @@
                             <v-card-media
                                     class="white--text"
                                     height="200px"
-                                    src="/images/doc/cards/docks.jpg"
+                                    src="/img/doc/cards/docks.jpg"
                             >
                                 <v-container fill-height fluid>
                                     <v-layout fill-height>

@@ -11,7 +11,7 @@
                     </blockquote>
                 </v-card-text>
                 <v-card>
-                    <v-card-media src="/images/doc/lists/alison.jpeg" height="300px">
+                    <v-card-media src="/img/doc/lists/alison.jpeg" height="300px">
                         <v-layout column class="media">
                             <v-card-title>
                                 <v-btn dark icon>

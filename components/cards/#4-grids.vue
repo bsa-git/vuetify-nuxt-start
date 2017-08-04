@@ -59,9 +59,9 @@
         ],
         data: () => ({
             cards: [
-                {title: 'Pre-fab homes', src: '/images/doc/cards/house.jpg', flex: 12},
-                {title: 'Favorite road trips', src: '/images/doc/cards/road.jpg', flex: 6},
-                {title: 'Best airlines', src: '/images/doc/cards/plane.jpg', flex: 6}
+                {title: 'Pre-fab homes', src: '/img/doc/cards/house.jpg', flex: 12},
+                {title: 'Favorite road trips', src: '/img/doc/cards/road.jpg', flex: 6},
+                {title: 'Best airlines', src: '/img/doc/cards/plane.jpg', flex: 6}
             ]
         })
     }

@@ -14,7 +14,7 @@
                     <v-flex xs12 sm8 offset-sm2>
                         <v-card>
                             <v-card-media
-                                    src="/images/doc/cards/sunshine.jpg"
+                                    src="/img/doc/cards/sunshine.jpg"
                                     height="200px"
                             >
                             </v-card-media>

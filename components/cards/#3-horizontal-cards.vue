@@ -43,7 +43,7 @@
                                         </v-flex>
                                         <v-flex xs5>
                                             <v-card-media
-                                                    src="/images/doc/cards/foster.jpg"
+                                                    src="/img/doc/cards/foster.jpg"
                                                     height="125px"
                                                     contain
                                             ></v-card-media>
@@ -64,7 +64,7 @@
                                         </v-flex>
                                         <v-flex xs5>
                                             <v-card-media
-                                                    src="/images/doc/cards/halcyon.png"
+                                                    src="/img/doc/cards/halcyon.png"
                                                     height="125px"
                                                     contain
                                             ></v-card-media>

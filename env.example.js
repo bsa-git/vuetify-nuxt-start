@@ -18,7 +18,7 @@ export default {
             app_title: 'Vuetify',
             logo_title: 'BSA Lab.',
             logo_icon: 'check_circle',
-            logo_img: '/images/system/user.jpg',
+            logo_img: '/img/system/user.jpg',
             copyright: '© 2017 "BSA Lab." - All Rights Reserved',
             designed_with: 'BSA Lab Studio',
             designed_with_url: 'https://www.real.com/iamgurdeeposahan',

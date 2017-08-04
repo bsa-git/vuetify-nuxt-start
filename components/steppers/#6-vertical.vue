@@ -17,7 +17,7 @@
                             <small>Summarize if needed</small>
                         </v-stepper-step>
                         <v-stepper-content step="1">
-                            <v-card img="/images/doc/steppers/first.jpg" height="300px">
+                            <v-card img="/img/doc/steppers/first.jpg" height="300px">
                                 <v-card-text class="white--text pl-3 pt-3 pb-3">First.jpg</v-card-text>
                             </v-card>
                             <v-btn secondary dark @click.native="e6 = 2">Continue</v-btn>
@@ -26,7 +26,7 @@
                         <v-stepper-step step="2" v-bind:complete="e6 > 2">Configure analytics for this app
                         </v-stepper-step>
                         <v-stepper-content step="2">
-                            <v-card img="/images/doc/steppers/second.jpg" height="300px">
+                            <v-card img="/img/doc/steppers/second.jpg" height="300px">
                                 <v-card-text class="white--text pl-3 pt-3 pb-3">Second.jpg</v-card-text>
                             </v-card>
                             <v-btn secondary dark @click.native="e6 = 3">Continue</v-btn>
@@ -35,7 +35,7 @@
                         <v-stepper-step step="3" v-bind:complete="e6 > 3">Select an ad format and name ad unit
                         </v-stepper-step>
                         <v-stepper-content step="3">
-                            <v-card img="/images/doc/steppers/third.jpg" height="300px">
+                            <v-card img="/img/doc/steppers/third.jpg" height="300px">
                                 <v-card-text class="white--text pl-3 pt-3 pb-3">Third.jpg</v-card-text>
                             </v-card>
                             <v-btn secondary dark @click.native="e6 = 4">Continue</v-btn>
@@ -43,7 +43,7 @@
                         </v-stepper-content>
                         <v-stepper-step step="4">View setup instructions</v-stepper-step>
                         <v-stepper-content step="4">
-                            <v-card img="/images/doc/steppers/fourth.jpg" height="300px">
+                            <v-card img="/img/doc/steppers/fourth.jpg" height="300px">
                                 <v-card-text class="white--text pl-3 pt-3 pb-3">Fourth.jpg</v-card-text>
                             </v-card>
                             <v-btn secondary dark @click.native="e6 = 1">Continue</v-btn>

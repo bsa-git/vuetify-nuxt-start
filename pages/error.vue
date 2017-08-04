@@ -5,7 +5,7 @@
                 <br/>
                 <br/>
                 <!-- Card Media -->
-                <img id="img-error" src="/images/system/error.png" alt="Error">
+                <img id="img-error" src="/img/system/error.png" alt="Error">
                 <!-- Card Content -->
                 <v-card-text>
                     <template v-if="error.name">
