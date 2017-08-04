@@ -1,6 +1,5 @@
 // Global values for application"
 export default {
-    staticPath: '',
     debug: false,
     maintenance: false,
     ui: {

@@ -5,7 +5,7 @@
             <div class="subheading">{{ description }}</div>
         </div>
         <v-container>
-            <v-parallax :src="`${staticPath}/images/system/vbanner.jpg`">
+            <v-parallax src="images/system/vbanner.jpg">
                 <v-layout column align-center justify-center>
                     <h1 class="white--text">Vuetify.js</h1>
                     <h4 class="white--text">Build your application today!</h4>
@@ -38,7 +38,6 @@
 </template>
 
 <script>
-    import {mapGetters} from 'vuex'
     export default {
         data() {
             return {
@@ -61,11 +60,6 @@
             } catch (e) {
                 error(e)
             }
-        },
-        computed: {
-            ...mapGetters({
-                staticPath: 'getStaticPath'
-            })
         }
     }
 </script>
