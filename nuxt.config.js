@@ -4,6 +4,7 @@ module.exports = {
      ** Middleware
      */
     router: {
+        base: '/vuetify-nuxt-start/',
         middleware: 'ini-app'
     },
     generate: {
