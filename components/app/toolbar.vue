@@ -1,10 +1,9 @@
 <template>
-    <v-toolbar :class="[theme.base,  'darken-3']" light fixed>
-        <v-toolbar-side-icon class="white--text" light @click.native.stop="onNavLeft"></v-toolbar-side-icon>
+    <v-toolbar :class="[theme.base,  'darken-3']" dark fixed>
+        <v-toolbar-side-icon class="white--text" @click.native.stop="onNavLeft"></v-toolbar-side-icon>
         <v-btn
                 class="white--text"
                 v-if="config.ui.nav_left_mini.show"
-                light
                 icon
                 @click.native.stop="onNavLeftMini"
         >
@@ -13,7 +12,6 @@
         <v-btn
                 class="white--text"
                 v-if="config.ui.nav_left_clipped.show"
-                light
                 icon
                 @click.native.stop="onNavLeftClipped"
         >
@@ -22,13 +20,12 @@
         <v-btn
                 class="white--text"
                 v-if="config.ui.footer_fixed.show"
-                light
                 icon
                 @click.native.stop="onFooterFixed"
         >
             <v-icon>remove</v-icon>
         </v-btn>
-        <v-toolbar-title class="white--text" v-text="title"></v-toolbar-title>
+        <v-toolbar-title v-text="title"></v-toolbar-title>
         <v-spacer></v-spacer>
         <div>
             <v-menu id="marriot" bottom left origin="top right">
@@ -61,7 +58,6 @@
         </div>
         <v-btn
                 v-if="config.ui.nav_right.show"
-                light
                 icon
                 @click.native.stop="onNavRight"
         >

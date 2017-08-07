@@ -12,7 +12,7 @@
                 </v-card-text>
                 <v-layout row>
                     <v-flex xs12 sm10 offset-sm1>
-                        <v-card class="ma-3">
+                        <v-card class="ma-3" dark>
                             <v-toolbar dark>
                                 <v-toolbar-side-icon></v-toolbar-side-icon>
                                 <v-toolbar-title>Inbox</v-toolbar-title>
@@ -47,15 +47,27 @@
 <script>
     export default {
         props: ['theme'],
-        data () {
+        data() {
             return {
                 items: [
-                    { header: 'Today' },
-                    { avatar: '/img/doc/lists/1.jpg', title: 'Brunch this weekend?', subtitle: "<span class='grey--text text--lighten-2'>Ali Connors</span> — I'll be in your neighborhood doing errands this weekend. Do you want to hang out?" },
-                    { divider: true, inset: true },
-                    { avatar: '/img/doc/lists/2.jpg', title: 'Summer BBQ <span class="grey--text text--lighten-1">4</span>', subtitle: "<span class='grey--text text--lighten-2'>to Alex, Scott, Jennifer</span> — Wish I could come, but I'm out of town this weekend." },
-                    { divider: true, inset: true },
-                    { avatar: '/img/doc/lists/3.jpg', title: 'Oui oui', subtitle: "<span class='grey--text text--lighten-2'>Sandra Adams</span> — Do you have Paris recommendations? Have you ever been?" }
+                    {header: 'Today'},
+                    {
+                        avatar: '/img/doc/lists/1.jpg',
+                        title: 'Brunch this weekend?',
+                        subtitle: "<span class='grey--text text--lighten-2'>Ali Connors</span> — I'll be in your neighborhood doing errands this weekend. Do you want to hang out?"
+                    },
+                    {divider: true, inset: true},
+                    {
+                        avatar: '/img/doc/lists/2.jpg',
+                        title: 'Summer BBQ <span class="grey--text text--lighten-1">4</span>',
+                        subtitle: "<span class='grey--text text--lighten-2'>to Alex, Scott, Jennifer</span> — Wish I could come, but I'm out of town this weekend."
+                    },
+                    {divider: true, inset: true},
+                    {
+                        avatar: '/img/doc/lists/3.jpg',
+                        title: 'Oui oui',
+                        subtitle: "<span class='grey--text text--lighten-2'>Sandra Adams</span> — Do you have Paris recommendations? Have you ever been?"
+                    }
                 ]
             }
         }
