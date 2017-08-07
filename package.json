@@ -19,7 +19,7 @@
     "qs": "^6.5.0",
     "vee-validate": "^2.0.0-rc.6",
     "vue-server-renderer": "latest",
-    "vuetify": "0.14.7"
+    "vuetify": "latest"
   },
   "devDependencies": {
     "stylus": "^0.54.5",
