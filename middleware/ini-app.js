@@ -10,8 +10,8 @@ export default async function (context) {
         context.store.commit(types.SET_CONFIG, config);
 
         // Check maintenance mode
-        if (config.maintenance && context.route.path !== '/maintenance') {
-            context.redirect('/maintenance')
+        if (config.maintenance && context.route.path !== '/warnings/maintenance') {
+            context.redirect('/warnings/maintenance')
         }
 
         // Get request data
